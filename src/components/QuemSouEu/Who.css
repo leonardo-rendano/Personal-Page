@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.mainDiv {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /*background-image: url('../../assets/left-bracket.jpg');*/
+  background-position: center left;
+  background-size: 130px;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  height: 100vh;
+  /* border: 2px solid blue;*/
+}
+
+.whoText {
+  color: #777;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  height: 70vh;
+  box-sizing: border-box;
+  margin-top: 80px;
+  /*border: 2px solid red;*/
+}
+
+.whoText h1 {
+  font-size: 2.5em;
+  color: #999;
+  font-weight: normal;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 35px;
+  font-family: 'Shadows Into Light', cursive;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3.5s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255,255,255,0.3);
+}
+
+.whoText h3 {
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.whoText h4 {
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+
+.whoText p {
+  font-size: 1.5em;
+}
+
+.whoImg {
+  max-width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  /*border: 2px solid orange;*/
+}
+
+.whoImg img {
+  border: 8px solid #777;
+  border-radius: 50%;
+  width: 15vw;
+  margin-top: -50px;
+}
+
+
+

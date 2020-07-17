@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.HeaderWelcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Shadows Into Light', cursive;
+  max-width: 70vw;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  /*border: 2px solid red;*/
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid #fff;
+  /*border-color: linear-gradient(to right, #000000, #434343);*/
+  width: 100%;
+  height: 70vh;
+  margin-top: 150px;
+  color: #888;
+  /*border: 2px solid green;*/
+}
+
+.HeaderWelcome h1 {
+  font-size: 4em;
+  margin: 20px;
+  letter-spacing: 4px;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 4s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255,255,255,0.3);
+}
+
+.HeaderWelcome h3 {
+  font-size: 2.2em;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 4s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ------------------------- ANIMAÇÃO --------------------------- */
+
+@keyframes animate 
+{
+  0%
+  {
+    background-position: -500%;
+  }
+  100%
+  {
+    background-position: 500%;
+  }
+}
+

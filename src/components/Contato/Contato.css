@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.mainContato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 90vh;
+  margin: 0 auto;
+  /*background-image: url('../../assets/right-bracket.jpg');*/
+  background-size: 130px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  /*border: 2px solid red;*/
+}
+
+.contatoContent {
+  width: 80%;
+  margin: 100px auto 0;
+  /*border: 2px solid blue;*/
+}
+
+.contatoTitle {
+  width: 60%;
+  margin: 0 0 0 auto;
+  /*border: 2px solid purple;*/
+}
+
+.contatoTitle h1 {
+  color: #999;
+  font-weight: normal;
+  font-size: 2.5em;
+  text-align: right;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 35px;
+  font-family: 'Shadows Into Light', cursive;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3.5s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255,255,255,0.3);
+  /*border: 2px solid green;*/
+}
+
+.contatoIcons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  width: 100%;
+  /*border: 2px solid orange;*/
+}
+
+.contatoIcons .icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  /*border: 2px solid yellowgreen;*/
+}
+
+.contatoIcons .icon a {
+  text-decoration: none;
+  color: #999; 
+}
+
+.contatoIcons .icon p {
+  color: #999;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 10px;
+  letter-spacing: 0.2px;
+  transition: all ease-out 0.2s;
+}
+
+.contatoIcons .icon p:hover {
+  color: #fff;
+  transition: all ease-in 0.2s;
+}
+

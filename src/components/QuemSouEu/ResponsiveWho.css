@@ -1,0 +1,153 @@
+
+/* ------------------------------------------ IPAD PRO --------------------------------- */
+
+@media screen and (max-width:1024px) {
+  body {
+    width: 100%;
+  }
+
+  .mainDiv {
+    width: 95%;
+    background-image: url('../../assets/left-bracket.jpg');
+    background-size: 310px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-top: 96px;
+  }
+
+  .whoText {
+    width: 60%;
+    height: 50%;
+    margin: 20px auto 0;
+  }
+
+  .whoText h1 {
+    width: 100%;
+    font-size: 4em;
+    text-align: center;
+    margin: 0 auto 25px;
+  }
+
+  .whoText h3 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .whoText p {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .whoImg {
+    width: 100%;
+    
+  }
+
+  .whoImg img {
+    width: 100%;
+  }
+}
+
+/* ------------------------------------ IPHONE 5/SE -------------------------- */
+
+@media screen and (max-width:375px) {
+  body {
+    width: 100%;
+  }
+
+  .mainDiv {
+    width: 100%;
+    height: 100vh;
+    background: none;
+  }
+
+  .whoText {
+    width: 90%;
+    height: 60vh;
+  }
+
+  .whoText h1 {
+    font-size: 1em;
+    text-align: center;
+  }
+
+  .whoText h3 {
+    font-size: 1.5em;
+  }
+
+  .whoText p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:414px) {
+  .mainDiv {
+    width: 100%;
+    background: none;
+  }
+
+  .whoText {
+    width: 90%;
+    height: 70vh;
+  }
+
+  .whoText h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .whoText h3 {
+    font-size: 1.5em;
+  }
+
+  .whoText p {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainDiv {
+    background-size: 20vh;
+    background-position: center left;
+  }
+
+  .whoText h1 {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    width: 100%;
+  }
+
+  .mainDiv {
+    width: 100%;
+    height: 90vh;
+    background: none;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .whoText {
+    width: 90%;
+    height: 60vh;
+  }
+
+  .whoText h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .whoText h3 {
+    font-size: 1.5em;
+  }
+
+  .whoText p {
+    font-size: 1em;
+  }  
+}

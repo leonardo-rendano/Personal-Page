@@ -1,0 +1,21 @@
+
+@media screen and (max-width: 375px) {
+  .footer p {
+    text-align: center;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .footer p {
+    text-align: center;
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer p {
+    text-align: center;
+    font-size: 0.8em;
+  }
+}

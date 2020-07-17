@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.Header {
+  border-bottom: 2px solid #fff;
+  width: 80vw;
+  position: fixed;
+  transform: translate(12.5%, 0);
+  background-color: #000;
+  z-index: 2;
+  /*border: 2px solid red;*/
+}
+
+.Header ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 25px;
+  list-style: none;
+}
+
+.Header a {
+  font-size: 2em;
+  list-style: none;
+  font-family: 'Shadows Into Light', cursive;
+  color: #777;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Header li:hover {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 1.5s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255,255,255,0.3);
+}
+
+

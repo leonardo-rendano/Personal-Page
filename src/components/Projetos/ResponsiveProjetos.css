@@ -1,0 +1,66 @@
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+
+  .projetos-main {
+    width: 90%;
+    height: 100%;
+  }
+
+  .projetosText {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .projetosText h1 {
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .cardMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+
+  .projetos-main {
+    width: 90%;
+  }
+
+  .projetosText {
+    width: 90%;
+    margin-top: 40px;
+  }
+}
+
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+  .projetos-main {
+    width: 100%;
+  }
+
+  .projetosText {
+    width: 90%;
+    margin: 140px auto 0;
+  }
+
+  .projetosText h1 {
+    text-align: center;
+    font-size: 5em;
+  }
+
+  .cardMain {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .container {
+    margin-top: 80px;
+    height: 60%;
+  }  
+}
+

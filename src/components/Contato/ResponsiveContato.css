@@ -1,0 +1,180 @@
+
+/* -------------------------------------IPHONE X ---------------------------- */
+
+@media screen and (max-width: 375px) {
+  .mainContato {
+    width: 100%;
+    height: 90vh;
+  }
+
+  .contatoContent {
+    width: 90%;
+    height: 90%;
+  }
+
+  .contatoTitle {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contatoTitle h1 {
+    text-align: center;
+  }
+
+  .contatoIcons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+  }
+
+  .contatoIcons .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* ---------------------------------------IPHONE 6/7/8 PLUS -----------------------*/
+
+@media screen and (max-width: 414px) {
+  .mainContato {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .contatoContent {
+    width: 80%;
+    height: 90%;
+  }
+
+  .contatoTitle {
+    width: 100%;
+  }
+
+  .contatoTitle h1 {
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .contatoIcons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+  }
+
+  .contatoIcons .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+
+/* ---------------------------------------IPAD-------------------------------------*/  
+
+
+@media screen and (max-width: 768px) {
+  .mainContato {
+    background: none;
+    }
+  }
+
+/* ---------------------------------------IPAD PRO-------------------------------------*/            
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+  .mainContato {
+    width: 95%;
+    height: 90vh;
+    background-size: 310px;
+  }
+
+  .contatoContent {
+    width: 60%;
+    height: 70%;
+  }
+
+  .contatoTitle {
+    width: 100%;
+  }
+
+  .contatoTitle h1 {
+    text-align: center;
+    font-size: 5em;
+  }
+
+  .contatoIcons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+  }
+
+  .contatoIcons .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contatoIcons .icon p {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .mainContato {
+    height: 100vh;
+  }
+
+  .contatoIcons {
+    height: 75vh;
+  }
+
+  .icon {
+    height: 25vh;
+   
+  }
+
+  .icon p {
+    font-size: 1em;
+  }
+}
+
+
+/*@media screen and (max-width:1366px) and (max-height:768px) {
+  .mainContato {
+    height: 80vh;
+    width: 70%;
+    background-size: 130px;
+  }
+
+  .contatoIcons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .contatoIcons .icon {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon p {
+    font-size: 2em;
+  }
+}
+*/
